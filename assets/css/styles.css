@@ -33,11 +33,14 @@ nav a:hover {
     background-color: black;
     text-shadow: #2FF3FF 0 0 10px;
     color: #2FF3FF;
+    scale: 1.1;
 }
 
 #qsou {
-    padding: 100px;
+    width: auto;
+    padding: 50px;
     color: #fff;
+    height: 170px;
 }
 
 #qsou hr {
@@ -46,6 +49,7 @@ nav a:hover {
 }
 
 footer {
+    margin-top: 390px;
     background-color: black;
     height: 200px;
     padding: 20px;
