@@ -8,21 +8,17 @@ body {
     margin: 0;
 }
 
-nav:not(img) {
+nav {
+    height: 18px;
     background-color: black;
     box-shadow: #2FF3FF 0 0 30px;
-}
-
-nav:not(a) {
-    height: 45px;
-    display: flex;
-    justify-content: left;
+    padding: 10px;
+    overflow-x: auto;
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
-    display: block;
     padding: 5px;
     margin: 10px;
     transition: all 0.2s ease-in-out;
@@ -36,14 +32,18 @@ nav a:hover {
     scale: 1.1;
 }
 
-#qsou {
-    width: auto;
-    padding: 50px;
+#qsoubox {
+    margin: 50px;
     color: #fff;
-    height: 170px;
 }
 
-#qsou hr {
+#qsou {
+    height: 200px;
+    max-width: 800px;
+    overflow: auto;
+}
+
+#qsoubox hr {
     width: 150px;
     border-color: #2FF3FF;
 }
