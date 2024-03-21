@@ -20,7 +20,7 @@ nav a {
     color: #fff;
     text-decoration: none;
     padding: 5px;
-    margin: 10px;
+    margin: 1px;
     transition: all 0.2s ease-in-out;
 }
 
@@ -39,7 +39,7 @@ nav a:hover {
 
 #qsou {
     height: 200px;
-    max-width: 800px;
+    max-width: 750px;
     overflow: auto;
 }
 
