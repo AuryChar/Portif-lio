@@ -142,7 +142,7 @@ footer b a:hover {
 
 @media screen and (max-width: 800px) {
     #qsousection {
-        display: block;
+        display: grid;
         height: 700px;
         justify-content: center;
         overflow: auto;
