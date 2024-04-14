@@ -8,7 +8,7 @@ body {
     margin: 0;
 }
 
-nav {
+#nav {
     height: 18px;
     background-color: black;
     box-shadow: #2FF3FF 0 0 30px;
@@ -16,7 +16,7 @@ nav {
     overflow-x: auto;
 }
 
-nav a {
+#nav a {
     color: #fff;
     text-decoration: none;
     padding: 5px;
@@ -24,12 +24,16 @@ nav a {
     transition: all 0.2s ease-in-out;
 }
 
-nav a:hover {
+#nav a:hover {
     border-radius: 7px;
     background-color: black;
     text-shadow: #2FF3FF 0 0 10px;
     color: #2FF3FF;
     scale: 1.1;
+}
+
+#nav-sm {
+    display: none;
 }
 
 #qsousection {
@@ -75,9 +79,15 @@ nav a:hover {
     border-radius: 7px;
     padding: 15px;
     width: 400px;
+    transition: all 0.2s ease-in-out;
+}
+
+#zenith:hover {
+    background-color: #4f4f4f;
 }
 
 #zenith a {
+    background-color: #333333;
     font-size: 20px;
     border: #2FF3FF 2px solid;
     padding: 5px;
@@ -88,7 +98,6 @@ nav a:hover {
 }
 
 #zenith a:hover {
-    border-radius: 10px;
     background-color: #4f4f4f;
 }
 
@@ -97,9 +106,15 @@ nav a:hover {
     border-radius: 7px;
     padding: 15px;
     width: 400px;
+    transition: all 0.2s ease-in-out;
+}
+
+#forulove:hover {
+    background-color: #4f4f4f;
 }
 
 #forulove a {
+    background-color: #333333;
     align-self: end;
     font-size: 20px;
     border: #2FF3FF 2px solid;
@@ -111,7 +126,6 @@ nav a:hover {
 }
 
 #forulove a:hover {
-    border-radius: 10px;
     background-color: #4f4f4f;
 }
 
