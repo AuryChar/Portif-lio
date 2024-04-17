@@ -129,6 +129,33 @@ body {
     background-color: #4f4f4f;
 }
 
+#pudimsoft {
+    border: #2FF3FF 2px solid;
+    border-radius: 7px;
+    padding: 15px;
+    width: 400px;
+    transition: all 0.2s ease-in-out;
+}
+
+#pudimsoft:hover {
+    background-color: #4f4f4f;
+}
+
+#pudimsoft a {
+    background-color: #333333;
+    font-size: 20px;
+    border: #2FF3FF 2px solid;
+    padding: 5px;
+    border-radius: 7px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+#pudimsoft a:hover {
+    background-color: #4f4f4f;
+}
+
 #langsection {
     background-color: #333333;
     padding: 50px;
@@ -177,6 +204,12 @@ footer b a:hover {
     }
 
     #forulove {
+        margin-bottom: 10px;
+        padding: 10px;
+        width: auto;
+    }
+
+    #pudimsoft {
         padding: 10px;
         width: auto;
     }
