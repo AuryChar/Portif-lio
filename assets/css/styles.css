@@ -8,7 +8,7 @@ body {
     margin: 0;
 }
 
-.menu-input, .menu-label {
+.menu-input, .menu-label, aside h1 {
     display: none;
 }
 
